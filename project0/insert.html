@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Condominio Sevillana I</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/mystyle.css">
+        <style type="text/css">
+            .entradas {
+            margin: 5px;
+            padding: 2px;
+            border: 1px solid blue;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="m-1 p-1">
+            <h1>Registrar pago</h1>
+        </header>
+        <form>
+            <div class="container p-4">
+                <div class="row"> 
+                    <div class="col-12 col-md-4 border mb-2">
+                        Nro de casa:
+                    </div>
+                    <div class="col border mb-2">
+                        <input type="number" name="casaid"> 
+                    </div>
+                    <div class="w-100"></div>                    
+                    <div class="col-12 col-md-4 border mb-2">
+                        Codigo de la transaccion:
+                    </div>
+                    <div class="col border mb-2">
+                        <input type="text" name="transaccioncode">
+                    </div>
+                    <div class="w-100"></div>                                        
+                    <div class="col-12 col-md-4 border mb-2">
+                        Monto:
+                    </div>
+                    <div class="col border mb-2">
+                        <input type="number" name="monto">
+                    </div>
+                    <div class="w-100"></div>                    
+                    <div class="col-12 col-md-4 border mb-2">
+                        Fecha:
+                    </div>
+                    <div class="col border mb-2">
+                        <input type="date" name="fecha">
+                    </div>
+                    <div class="w-100"></div>                                        
+                    <div class="col-12 col-md-4 border mb-2">
+                        Banco:
+                    </div>
+                    <div class="col border mb-2">
+                        <input name="banco" list="bancos">
+                        <datalist id="bancos">
+                        <option value="PROVINCIAL">
+                        <option value="MERCANTIL">
+                        <option value="BANESCO">    
+                        <option value="ACTIVO"> 
+                        <option value="BOD">
+                        </datalist>
+                    </div>
+                    <div class="w-100"></div>                                        
+                    <div class="col-12 col-md-4 border mb-2">
+                        Motivo:
+                    </div>
+                    <div class="col border mb-2">
+                        <input type="text" name="motivo" size="60px">
+                    </div>
+                </div>
+            </div>
+            <div class="container" >
+                <input type="submit" value="Submit">    
+            </div>
+        </form>        
+        <footer>
+            <nav class="nav justify-content-center border p-0 m-0 bg-light">
+                <a class="nav-link" href="index.html">Inicio</a>
+                <a class="nav-link" href="insert.html">Registrar pago</a>
+                <a class="nav-link" href="list.html">Consultar pagos</a>
+                <a class="nav-link" href="update.html">Actualizar correo</a>
+            </nav>
+        </footer>	    
+    </body>
+</html>
