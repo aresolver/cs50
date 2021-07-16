@@ -1,0 +1,60 @@
+
+.textsearch {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    /*width: auto;*/
+}
+.mybutton {
+    background-color: #f8f9fa;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.logogoogle {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.mycontainer {
+    height: 800px;
+    position: relative;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.mycenter {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.myleft {
+    padding-left: 20px;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    height: 60px;
+}
+
+.alignright {
+    text-align: right;
+}            
