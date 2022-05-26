@@ -9,6 +9,7 @@ https://cs50.harvard.edu/web/2020/projects/1/wiki/
 # Install
 
 git@github.com:me50/mcamachog1.git
+
 cd web/2020/projects/1/wiki/
 
 # Python version
