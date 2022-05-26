@@ -10,7 +10,9 @@ https://cs50.harvard.edu/web/2020/projects/1/wiki/
 
 https://github.com/me50/mcamachog1.git
 
-cd web/2020/projects/x/wiki/
+cd mcamachog1
+
+git checkout web/2020/projects/x/wiki/
 
 # Python version
 
