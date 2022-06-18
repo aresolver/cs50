@@ -1,0 +1,27 @@
+{% extends "auctions/layout.html" %} {% block body %}
+
+<h2>Active Listings</h2>
+
+{% if user.is_authenticated %}
+<ul class="list-group">
+  {% for article in listings %}
+  <li class="list-group-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <img src="{{ article.url_image }}" width="50px" />
+        </div>
+        <div class="col-sm-9">
+          <p class="font-weight-bold">{{ article.name }}</p>
+          <p class="font-weight-bold">Price: ${{ current_price }}</p>
+          <p class="font-weight-bold">{{ article.price }}</p>
+          <p class="font-weight-normal">{{ article.description }}</p>
+          <p class="font-weight-light">{{article.id}}</p>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  {% endfor %}
+</ul>
+{% else %} Not signed in. {% endif %} {% endblock %}
