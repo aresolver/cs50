@@ -1,6 +1,6 @@
 # Wiki Project
 
-This is the Project 1 of the course Web Programming with Python and JavaScript
+This is the Project 1 of the course [Web Programming with Python and JavaScript](https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home)
 
 # Project Description
 
