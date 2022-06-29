@@ -1,6 +1,6 @@
 # Wiki Project
 
-This is the Project 1 of the course Web Programming with Python and JavaScript
+This is the Project 1 of the course [Web Programming with Python and JavaScript](https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home)
 
 # Project Description
 
@@ -8,8 +8,11 @@ https://cs50.harvard.edu/web/2020/projects/1/wiki/
 
 # Install
 
-git@github.com:me50/mcamachog1.git
-cd web/2020/projects/1/wiki/
+https://github.com/me50/mcamachog1.git
+
+cd mcamachog1
+
+git checkout web/2020/projects/x/wiki/
 
 # Python version
 
