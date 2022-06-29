@@ -1,0 +1,4 @@
+encyclopedia/__pycache__/*
+encyclopedia/migrations/__pycache__/*
+encyclopedia/templatetags/__pycache__/*
+wiki/__pycache__/*
